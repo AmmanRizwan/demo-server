@@ -2,7 +2,7 @@ import express from 'express';
 
 const app = express();
 
-app.use('/', (req, res) => {
+app.get('/', (req, res) => {
   res.json({message: "Python Project Running"});
 })
 
